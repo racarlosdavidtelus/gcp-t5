@@ -27,7 +27,7 @@ npm install mysql
 npm install dotenv
 
 # Comando para realizar el despligue de la cloud function
-gcloud functions deploy loginHttp --runtime nodejs16 --trigger-http --allow-unauthenticated
+gcloud functions deploy userHttp --runtime nodejs16 --trigger-http --allow-unauthenticated
 ```
 
 
