@@ -13,6 +13,9 @@ gcloud sql users create carlosdavid --host=% \
 gcloud sql instances describe mypicz
 
 ```
+![Alt text](Img/cloudsql0.png)
+![Alt text](Img/cloudsql1.png)
+![Alt text](Img/cloudsql2.png)
 
 ## Cloud Function
 ```sh
@@ -29,8 +32,9 @@ npm install dotenv
 # Comando para realizar el despligue de la cloud function
 gcloud functions deploy userHttp --runtime nodejs16 --trigger-http --allow-unauthenticated
 ```
-
-
+![Alt text](Img/cloudfunction1.png)
+![Alt text](Img/cloudfunction2.png)
+![Alt text](Img/postman.png)
 
 
 # Configuraciones y Referencias
